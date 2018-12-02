@@ -1,0 +1,17 @@
+{
+  "name": "studentsapi",
+  "version": "1.0.0",
+  "description": "A simple REST Api that connects to a MySql database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Ibesoft",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.41.2"
+  }
+}
